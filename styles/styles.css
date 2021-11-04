@@ -17,3 +17,21 @@ ul{
 body{
 	margin:0px;
 }
+<<<<<<< HEAD
+=======
+
+.mainButton{
+	background-color: rgb(14, 0, 138);
+	color:white;
+	border: 0px;
+	padding: 5px 10px;
+	border-radius: 10px;
+	font-weight: bolder;
+}
+
+.mainButton:hover{
+	cursor: pointer;
+	box-shadow: 3px 3px grey;
+	transform: scale(1.1);
+}
+>>>>>>> 5-crear-boton-nuevo-post
