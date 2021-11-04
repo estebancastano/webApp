@@ -1,0 +1,65 @@
+body, button, p ,input{
+	font-family: 'Merriweather', serif;
+}
+
+ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.navbar{
+	display:flex; 
+	justify-content: space-between;
+	margin: 10px;
+}
+
+body{
+	margin:0px;
+}
+
+.button{
+	border: 0px;
+	padding: 5px 10px;
+	border-radius: 10px;
+	font-weight: bolder;
+}
+
+.button:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+}
+.mainButton{
+	background-color: rgb(14, 0, 138);
+	color:white;
+}
+
+.mainButton:hover{
+	box-shadow: 3px 3px grey;
+	}
+
+
+.secondaryButton{
+	background-color: rgb(14, 172, 0);
+	color:white;
+}
+
+.secondaryButton:hover{
+	box-shadow: 3px 3px grey;
+}
+
+.buscar{
+	background-color: white;
+	border: 1px solid gray;
+	padding: 4px;
+	border-radius: 8px;
+}
+
+.buscar:focus-within{
+	border: 1px solid blue;
+}
+
+.buscar > input{
+	outline: none;
+	border: 0px;
+}
