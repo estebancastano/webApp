@@ -85,15 +85,39 @@ body{
 
 .breedCard{
 	margin: 10px;
+	background-color: rgb(70, 75, 73);
+	box-shadow: 10px 10px rgb(189, 181, 181);
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-radius: 10px;
+}
+
+.breedTitle{
+	color: white;
+	margin: 10px;
+	font-weight: bold;
+	font-size: large;
+}
+
+.contenedorImagen:hover{
+	cursor: pointer;
+	transform:scale(1.02);
 }
 
 .contenedorImagen{
 	width: 240px;
 	height: 350px;
 	display: flex;
+	margin-bottom:10px;
 }
 
 .contenedorImagen > img{
 	object-fit: cover;
 	width: 100%;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+h2.titulo{
+	text-align: center;
 }
